@@ -1,0 +1,17 @@
+*.log
+npm-debug.log*
+
+
+node_modules/
+
+.env
+
+package-lock.json
+
+*.temp
+*.tmp 
+
+dist/
+build/
+
+test/
