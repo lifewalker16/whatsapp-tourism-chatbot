@@ -15,3 +15,22 @@ dist/
 build/
 
 test/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+venv_tts/
+.env
+
+# Temp files
+temp_files/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
