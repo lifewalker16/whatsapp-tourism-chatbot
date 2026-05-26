@@ -4,31 +4,31 @@ An AI-powered WhatsApp chatbot built for tourism activity inquiries and bookings
 
 ---
 
-## ✨ Features
+## Features
 
-### 🤖 AI-Powered Chat Support
+### AI-Powered Chat Support
 - Handles natural conversations with users
 - Responds to tourism-related queries
 - Provides booking assistance through chat
 
-### 📱 WhatsApp Integration
+### WhatsApp Integration
 - Users can communicate directly through WhatsApp
 - Real-time messaging experience
 
-### 🏖️ Activity Booking System
+### Activity Booking System
 Users can:
 - Select tourism activities
 - Choose booking dates and time slots
 - Enter personal details
 - Confirm bookings instantly
 
-### 🌍 Multilingual Support
+### Multilingual Support
 - Supports translation for regional languages
 - Includes Konkani translation support
 - Speech-to-text support for voice messages
 
 ---
-## 🏗️ Architecture
+## Architecture
 
 - **Backend:** Node.js + Express.js  
   (Handles WhatsApp messaging, AI replies, booking flow, Groq API integration, and user conversation management)
@@ -48,7 +48,7 @@ Users can:
 - **WhatsApp Integration:** Twilio WhatsApp API  
   (Real-time communication with users through WhatsApp)
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - Online payment integration
 - Multi-operator tourism support
 - AI-based recommendation system
@@ -57,7 +57,7 @@ Users can:
 
 ---
 
-## 📌 Project Goal
+##  Project Goal
 The main goal of this project is to simplify tourism activity inquiries and bookings through an intelligent WhatsApp chatbot that provides users with a fast, multilingual, and user-friendly experience.
 
 ---
