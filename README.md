@@ -28,6 +28,25 @@ Users can:
 - Speech-to-text support for voice messages
 
 ---
+## 🏗️ Architecture
+
+- **Backend:** Node.js + Express.js  
+  (Handles WhatsApp messaging, AI replies, booking flow, Groq API integration, and user conversation management)
+
+- **Speech-to-Text (STT):** Deepgram API  
+  (Converts voice messages into text)
+
+- **Translation Backend:** Python FastAPI  
+  (Handles translation model execution)
+
+- **Translation Model:** `konkani-gemma-3-4b-it`  
+  (4-bit quantized model, translates English to Konkani)
+
+- **Database:** MongoDB  
+  (Stores bookings, activities, and user data)
+
+- **WhatsApp Integration:** Twilio WhatsApp API  
+  (Real-time communication with users through WhatsApp)
 
 ## 🚀 Future Enhancements
 - Online payment integration
