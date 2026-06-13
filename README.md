@@ -27,33 +27,32 @@ Users can:
 - Includes Konkani translation support
 - Speech-to-text support for voice messages
 
----
-
 ## System Demonstration
 
-### Text-Based Chat Interaction
+The chatbot supports both text-based and voice-based interactions through WhatsApp, providing users with a seamless and accessible booking experience.
 
-The chatbot enables users to communicate through text messages on WhatsApp to inquire about tourism activities and complete bookings.
-
-<p align="center">
-  <img src="./assets/text.jpeg" alt="Text-Based Chat" width="300">
-</p>
-
-<p align="center">
-  <em>Figure 1: Text-based interaction with the tourism chatbot.</em>
-</p>
-
-### Voice-Based Chat Interaction
-
-Users can also send voice messages through WhatsApp. The system converts speech into text using Deepgram API and generates appropriate responses.
-
-<p align="center">
-  <img src="./assets/voice.jpeg" alt="Voice-Based Chat" width="300">
-</p>
-
-<p align="center">
-  <em>Figure 2: Voice-based interaction using speech-to-text support.</em>
-</p>
+<table align="center">
+  <tr>
+    <th>Text-Based Chat Interaction</th>
+    <th>Voice-Based Chat Interaction</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./assets/text.jpeg" alt="Text-Based Chat" width="220">
+    </td>
+    <td align="center">
+      <img src="./assets/voice.jpeg" alt="Voice-Based Chat" width="270">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <em>Users can communicate through text messages to inquire about tourism activities and complete bookings.</em>
+    </td>
+    <td align="center">
+      <em>Users can send voice messages, which are converted to text using Deepgram API for processing.</em>
+    </td>
+  </tr>
+</table>
 
 ---
 ## Architecture
