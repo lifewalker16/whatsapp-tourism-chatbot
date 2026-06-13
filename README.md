@@ -28,6 +28,34 @@ Users can:
 - Speech-to-text support for voice messages
 
 ---
+
+## System Demonstration
+
+### Text-Based Chat Interaction
+
+The chatbot enables users to communicate through text messages on WhatsApp to inquire about tourism activities and complete bookings.
+
+<p align="center">
+  <img src="./assets/text.jpeg" alt="Text-Based Chat" width="300">
+</p>
+
+<p align="center">
+  <em>Figure 1: Text-based interaction with the tourism chatbot.</em>
+</p>
+
+### Voice-Based Chat Interaction
+
+Users can also send voice messages through WhatsApp. The system converts speech into text using Deepgram API and generates appropriate responses.
+
+<p align="center">
+  <img src="./assets/voice.jpeg" alt="Voice-Based Chat" width="300">
+</p>
+
+<p align="center">
+  <em>Figure 2: Voice-based interaction using speech-to-text support.</em>
+</p>
+
+---
 ## Architecture
 
 - **Backend:** Node.js + Express.js  
